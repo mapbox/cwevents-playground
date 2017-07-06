@@ -1,0 +1,23 @@
+{
+  "name": "cwevents-playground",
+  "version": "1.0.0",
+  "description": "A tool to make it easier to test CloudWatch Event patterns in situ",
+  "scripts": {
+    "lint": "eslint cloudformation",
+    "build": "build-template cloudformation/cwevents-playground.template.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapbox/cwevents-playground.git"
+  },
+  "author": "Mapbox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mapbox/cwevents-playground/issues"
+  },
+  "homepage": "https://github.com/mapbox/cwevents-playground#readme",
+  "dependencies": {
+    "@mapbox/cloudfriend": "^1.8.1",
+    "eslint-plugin-node": "^5.1.0"
+  }
+}
